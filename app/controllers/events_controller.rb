@@ -1,4 +1,5 @@
 class EventsController < ApplicationController
-    def index 
-    end 
+    def index
+        @events = [ "Bug Smash", "Hackathon", "Kata Camp" ]
+    end
 end
